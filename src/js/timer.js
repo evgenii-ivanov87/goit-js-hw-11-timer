@@ -1,8 +1,15 @@
-new CountdownTimer({
-  selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2019'),
-});
 
+// const newTimer = new CountdownTimer({
+//   selector: '#timer-1',
+//   targetDate: new Date('Dec 31, 2020'),
+  
+// })
+
+function starTimer()  {
+  const times = new Data();
+  console.log(times)
+}
+starTimer()
 
 /*
  * Оставшиеся дни: делим значение UTC на 1000 * 60 * 60 * 24, количество
