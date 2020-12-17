@@ -8,6 +8,49 @@ html {
   box-sizing: inherit;
 }
 
-/* body {
-  
-} */
+body {
+  background-image: url(https://domashniy.ru/upload/resize_cache/iblock/0ac/690_388_148e4c3f6581a67d536456d26c5cacb61/0ac12253f0a989cf0d2a6a427959a675.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.timer {
+  font-size: 0;
+  text-align: center;
+}
+.field {
+  display: inline-block;
+  vertical-align: top;
+}
+.field > span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+  background: #4dadf7;
+  color: #ffffff;
+  line-height: 70px;
+  width: 55px;
+  margin: 0 1px;
+  border-radius: 2px;
+}
+.field > span.label {
+  display: block;
+  background: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  width: auto;
+  margin: 0;
+}
+.field {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+  line-height: 70px;
+  margin: 0 5px;
+}
